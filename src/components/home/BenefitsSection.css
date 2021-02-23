@@ -1,0 +1,267 @@
+
+.benefits-section {
+  padding-bottom: 150px;
+}
+
+
+.vector-icon {
+grid-area: vector-icon;
+}
+
+.benefits-vector-style {
+  height: 21px;
+  width: 36px;
+  padding-right: 10px;
+  padding-top:7px;
+}
+
+.vector-benefits {
+  position: absolute;
+  /* width:  46%;
+  height: 100%; */
+width: 35%;
+left:0;
+height: auto;
+  /* aspect-ratio: attr(width)/attr(height); */
+  /* max-width: 502px; */
+  /* max-height: 1100px;  */
+  /* height:1176px ;  */
+  /* min-height: 116px;
+  min-width: 503px; */
+  z-index: -100;
+  top:1580px;
+}
+
+.items-icon {
+  padding-bottom: 0;
+}
+
+.iphone-mockup-box {
+box-sizing: border-box; 
+/* margin-left: 0px ; */
+/* left:0 ; */
+z-index: -1;
+display: inline-block ;
+vertical-align: top ;
+margin-top: -160px;
+/* width: 46%; */
+}
+
+.iphone-mockup {
+  /* height: 1205px; */
+  /* max-width: 120%; */
+  height: auto;
+  width: 60%;
+  max-width:  903px;
+  left: 0;
+  position: absolute;
+}
+
+
+
+.bList {
+  list-style: none;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  padding-left: 720px;
+  /* padding-top: -100px; */
+  flex:1;
+  /* max-width:570px ; */
+}
+
+.bListItem {
+  display: flex;
+  padding-top: 36px;
+}
+
+.bIcon {
+  display: block;
+}
+
+.bContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+padding-right: 40px;
+  max-width: 500px;
+  /* min-width: 200px; */
+}
+
+.bHeading {
+  width: 100%;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -1.1px;
+  color: #19126c;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.bDescription {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400px; 
+  line-height: 28px;
+  letter-spacing: -0.44px;
+  color: #1f3162;
+  text-align: left;
+}
+
+@media screen and (max-width:1300px) {
+/* .iphone-mockup-box {
+  margin-left: -20px ;
+  width: 40%;
+} */
+
+.bList {
+  padding-left: 650px;
+}
+}
+
+@media screen and (max-width:1199px) {
+.bList {
+  padding-left: 550px ;
+}
+}
+
+@media screen and (max-width:1199px) {
+  .bList {
+    padding-left: 460px ;
+  }
+  }
+
+@media screen and (max-width:1024px) {
+  /* .iphone-mockup-box {
+    margin-left: -40px ;
+  } */
+
+  .bContainer {
+
+    flex-wrap: wrap;
+    /* padding-left: 15px; */
+    width: 370px;
+
+  }}
+@media screen and (max-width:768px) {
+  .list {
+    margin: 0 auto;
+justify-content: center;
+  }
+
+  .bList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px ;
+    padding-top: 280px;   
+    justify-content: center;
+margin:0 auto ;
+  }
+  
+  .bListItem {
+    display: flex;
+    padding-top: 36px;
+    margin: 0 auto;
+
+  }
+  
+  .bIcon {
+    display: block;
+  }
+  
+  .bContainer {
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 15px; */
+    width: 230px;
+  }
+  
+  .bHeading {
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: -1.1px;
+    color: #19126c;
+    padding-bottom: 20px;
+  }
+  
+  .bDescription {
+    text-align: left;
+    /* width: 100%; */
+    font-size: 13px;
+    font-weight: 400px; 
+    line-height: 16.9px;
+    letter-spacing: -0.44px;
+    color: #1f3162;
+  
+  }
+
+.iphone-mockup {
+  width: 360px; 
+  height: 479px;
+
+}
+.items {
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+  .benefits-vector-style {
+    height: 15px;
+    width: 26px;
+    padding-right: 8px;
+    padding-top:3px;
+  }
+
+  .benefits-section {
+    padding-bottom: 90px;
+  }
+  
+  .vector-icon {
+  grid-area: vector-icon;
+  }
+  
+
+
+
+  
+  .iphone-mockup-box {
+  box-sizing: border-box; 
+  /* margin-left: 0px ; */
+  left: 0;
+  z-index: -1;
+  display: inline-block ;
+  vertical-align: top ;
+  margin-top: -160px;
+  /* width: 46%; */
+  }
+
+
+.vector-benefits {
+  /* width:  43%; */
+  /* height: 70%; */
+  /* aspect-ratio: attr(width)/attr(he/ight); */
+  /* height: auto;
+  width: 502px; 
+  height:1076px ; */
+  /* min-height: 116px; */
+  /* min-width: 503px; */
+  z-index: -100;
+  top:1550px;
+  width: 28%;
+}
+}
+
+@media screen and (max-width:380px) {
+.vector-benefits {
+  top:1600px;
+  width: 41%;
+}
+}

@@ -1,0 +1,112 @@
+* {
+    font-family: 'Averta';
+}
+
+.about-section {
+    vertical-align: middle;
+    float: none;
+    padding-bottom: 0px;
+    /* padding-top: */
+    } 
+    
+    .pink-rectangle {
+    height: 636px;
+    width: 1024px;
+    width: 100%;
+    background: #F45D92;
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    margin-bottom: 90px;
+    /* position: absolute; */
+    }
+
+    .pink-rectangle >h1 {
+        width: 680px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        letter-spacing: -1.1px;
+        color: #ffffff;
+        padding-bottom: 55px;
+        font-family: 'Averta';
+        padding-top: 150px;
+    }
+
+    .pink-rectangle >h2 {
+        text-align: center;
+        width: 643px;
+        margin: 0 auto ;
+        font-weight: normal;
+        font-family: 'Averta';
+        font-size: 24px;
+        line-height: 32px; 
+        letter-spacing: -1.1px; 
+        color: #ffffff;
+    }
+
+
+
+    .b-vector-1 {
+ overflow: hidden;
+width: 9%;
+height: auto; 
+left: 0;
+padding-top: 120px; 
+position: absolute;
+/* z-index: -100; */
+    }
+
+    .b-vector-2 {
+        /* overflow: hidden; */
+        width: 30%;
+        /* max-width: 540px; */
+        max-height: 1200px; 
+        height: auto;
+        /* padding-bottom: 50px; */
+right: 0;
+padding-top: 20px;
+/* top: 6690px; */
+position: absolute;
+
+
+    }
+
+    @media screen and (max-width:768px) {
+   .about-section {
+       padding-bottom: 43px ;
+       padding-top: 81px;
+   }
+
+   .pink-rectangle {
+    height: 328px;
+    }
+
+    .pink-rectangle >h1 {
+        width: 301.5px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: -1.1px;
+        color: #ffffff;
+        padding-bottom: 30px;
+        padding-top: 36px;
+    }
+
+    .pink-rectangle >h2 {
+        width: 265px;
+        text-align: center;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px; 
+        letter-spacing: -1.1px; 
+        color: #ffffff;
+    }
+    }
+    @media screen and (max-width: 1182px) {
+        .b-vector-2 {
+            display: none ;
+        }
+    }

@@ -1,0 +1,215 @@
+
+
+.bio-section {
+display: flex;
+padding-bottom: 40px;
+flex-wrap: wrap;
+}
+
+.vector-b-3 {
+  position: absolute;
+  overflow: hidden;
+  width: 40%;
+  left:0;
+  height:1490px ;
+  z-index: -100;
+  /* top:7200px; */
+  /* width: 100%; */
+  /* bottom: 20px; */
+
+}
+.text-container {
+max-width: 450px;
+padding-left: 90px;
+margin: 0 auto ;
+
+/* white-space: nowrap; */
+/* overflow-x: auto; */
+/* overflow-y: hidden; */
+}
+
+
+.images-container {
+margin: 0 auto;
+/* padding-top: 89px; */
+padding-left: 90px;
+}
+
+.bio-image-1 {
+max-width: 527px; 
+width: 100%;
+max-height: 368px;
+margin: 0 auto;
+padding-left: 10px;
+}
+
+.bio-image-2 {
+  width: 100%;
+max-width: 457px; 
+max-height:    348px;
+margin: 0 auto;
+/* padding-right: 140px; */
+
+}
+
+.bio-image-3 {
+  width: 100%;
+max-width: 559.32px; 
+max-height:     323.48px;
+margin: 0 auto;
+/* padding-right: 60px; */
+}
+
+
+
+.flex-wrap {
+    margin: 15px;
+    max-width: 1200px ;
+    margin: 0 auto ;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    flex: 1;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+   }
+
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    padding-left: 10px;
+    
+  }
+
+  .text-container>h4 {
+    font-weight: 600;
+    font-size: 28px; 
+    font-family: 'Averta';
+    text-align: left;
+    line-height: 34px;
+    letter-spacing: -1.1px;
+    color: #19126C;
+    padding-bottom: 20px;
+    }
+    
+    .column .p-a {
+    font-weight: normal;
+    font-size: 16px;
+    font-family: 'Averta';
+    text-align: left;
+    line-height: 21px;
+    letter-spacing: -0.6px;
+    color: #19126C;
+    padding-bottom: 18px;
+
+
+    }
+
+    .strong {
+      font-weight: 'bold';
+      /* color: blue; */
+    }
+    
+    @media screen and (max-width:768px) {
+      .vector-b-3 { 
+        display: none;
+      }
+        .bio-container {
+            padding-bottom: 20px;
+            }
+            
+            .text-container {
+            width: 100%;
+
+              max-width: 312px;
+              /* padding-left: 90px; */
+              margin: 0 auto ;
+              padding-left: 17px;
+
+              }
+              
+            
+            .images-container {
+            margin: 0 auto;
+            /* padding-top: 2px; */
+            padding-left: 0px;
+
+            }
+            
+            .bio-image-1 {
+              width: 100%;
+            width: 305.2px; 
+            height:     213.95px;
+            padding-left: 40px;
+            /* position: relative; */
+            }
+
+            .bio-image-2 {
+              width: 100%;
+            max-width: 261px; 
+            height:     213.95px;
+            padding-right: 40px;
+            }
+
+            .bio-image-3 {
+              width: 100%;
+            width: 288.2px; 
+            height:     170.95px;
+            padding-bottom: 30px;
+            }
+            
+            .order-1 {
+            order: 1 ;
+            }
+            
+            .order-2 {  
+            order: 2 ;
+            }
+            .flex-wrapp {
+                margin: 15px;
+              }
+              
+              .row {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 100%;
+                padding-bottom: 50px;
+              }
+              
+              .column {
+                display: flex;
+                flex-direction: column;
+                flex-basis: 100%;
+                flex: 100%;
+            
+              }
+            
+              .text-container>h4 {
+                font-weight: 600;
+                font-size: 20px; 
+                line-height: 24px;
+                letter-spacing: -1.1px;
+                color: #19126C;
+                padding-bottom: 26pxpx;
+                }
+                
+                .column .p-a {
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 17px;
+                letter-spacing: -0.4px;
+                color: #19126C;
+                padding-bottom: 16px;
+                }
+    }
