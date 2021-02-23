@@ -24,7 +24,7 @@ const cache =  new InMemoryCache() ;
 
 const client = new ApolloClient({
   // uri: 'https://48p1r2roz4.sse.codesandbox.io',
-  uri:'http://localhost:1337/graphql',
+  uri:'https://strapi-iyoni.herokuapp.com/graphql',
     cache: new InMemoryCache()
 });
 

@@ -22,7 +22,7 @@ const Home = () => {
     console.log(useLocation())
     console.log(useParams())
     React.useEffect(async() => {
-        const data= await fetch("http://localhost:1337/articles?slug=" +articleSlug ).then (res=> res.json())
+        const data= await fetch("https://strapi-iyoni.herokuapp.com/articles?slug=" +articleSlug ).then (res=> res.json())
         console.log(data )
         setArticle(data[0])
     }, [])

@@ -11,7 +11,7 @@ const Home = () => {
   const [articles, setArticles] = React.useState([])
   const categorySlug = useParams()?.slug
   React.useEffect(async () => {
-    const data = await fetch("http://localhost:1337/articles").then(res => res.json())
+    const data = await fetch("https://strapi-iyoni.herokuapp.com/articles").then(res => res.json())
 
     setArticles(data)
   }, [])
