@@ -1,0 +1,359 @@
+.mom-section-container {
+    padding-bottom: 150px;
+}
+
+.happy-mom-container {
+display: flex;
+/* margin:0 auto ; */
+}
+
+.happy-mom-row {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin:0 auto ;
+z-index: -1;
+}
+/*
+.mom-column1 {
+
+}
+*/
+.happy-mom-pic {
+height: 353px;
+width: 286px;
+left:0 ;
+margin-right: 400px;
+/* padding-right: 00px; */
+}
+
+
+.mom-column2-rectangle {
+height: 353px;
+width: 693px; 
+background: linear-gradient(180deg, #F4F7FF 0%, #FFFFFF 100%);
+transform: rotate(-180deg);
+border-radius:60px ;
+position: absolute;
+z-index: -1;
+}
+
+.text-wrapper { /*jak zrobic zeby byly jako osobne elementy*/
+    padding-left: 319px;
+    padding-bottom: 108px;
+    transform: rotate(-180deg);
+}
+
+.p2 {
+    padding-top: 15px;
+    font-style: italic;
+    font-size: 24px;
+    line-height:  32px;
+    letter-spacing: -0.7px;
+    color: #31429B; 
+    font-family: 'Averta';
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.p3 {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.7px;
+    font-weight: 700;
+    color: #31429B; 
+    text-align: left;
+    font-family: 'Averta';
+    padding-bottom: 15px;
+}
+.quote-icon {
+font-size: 3rem;
+color: #31429B;
+/* left: 0px; */
+/* padding-right: 200px; */
+/* padding-bottom: 15px; */
+/* padding-top: 58px ; */
+}
+
+.base-button {
+    cursor: pointer;
+    width: 235px ;
+    cursor: pointer;
+    position: absolute;
+    top:70% ;
+    right: 130px;
+    border: none;
+    background: #F45D92;
+    font-size: 20px;
+    font-family: 'Averta';
+    color: #ffffff;
+    padding: 19px 23px;
+    border-radius: 18px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 24.72px;
+}
+
+.base-button-wrapper {
+    position: relative;
+    padding-bottom: 0;
+}
+
+.base-button-wrapper .base-button {
+    cursor: pointer;
+}
+
+.text-wrapper2 {
+margin:auto 0 ;
+/* text-align: center; */
+padding-top: 147px;
+/* width: 1000px; */
+/* vertical-align: middle; 
+ float: none; */
+ width: 100% ;
+
+}
+
+
+.mom-title {
+    font-family: 'Averta';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: -1.1px;
+    color:#F45D92 ;
+    padding-bottom: 25px;
+   
+    /* width: 100% ; */
+    /* max-width:490px; */
+    
+    margin:auto 0 ;
+    /* text-align: center; */
+    vertical-align: middle;
+} 
+
+.mom-subtitle {
+    font-family: 'Averta';
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+text-align: center;
+letter-spacing: -1.1px;
+color: #19126C;
+padding-bottom: 0px;
+/* width: 962px ; */
+margin:auto 0 ;
+} 
+
+.line-break {
+        white-space: pre-wrap;
+}
+
+.mom-rectangle {
+    margin: 0 auto ; /*centered*/
+    display: flex;
+    width: 412px;
+    height: 50px;
+    background: #F56B9B;
+    opacity: 0.2;
+    border-radius: 72px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: -1 ;
+}
+
+.p-rec {
+    position: relative;
+    text-align: center;
+    color: #F45D92;
+    top: 62px;
+    font-size: 28px;
+    line-height: 34.16px;
+    letter-spacing: -1.1px;
+    font-weight: bold;
+}
+
+.p1 > span {
+    font-weight: 1000;
+}
+
+.rectangle > p1 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 34.16px;
+    letter-spacing: -1.1px;
+    font-weight: 400;
+    font-family: 'Averta';
+    color: #F45D92; /*opacity*/
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px ) {
+.quote-icon {
+font-size: 2em;
+padding-right:280px;
+margin-inline: -30px;
+
+/* padding-left */
+/* margin-left: 0; */
+/* padding-top: 135px; */
+}
+
+
+
+}
+
+@media screen and (max-width: 768px ) {
+    .p2 {
+        font-size: 16px;
+        line-height: 20.8px;
+        /* padding-top:-20px; */
+        text-align: left;
+        margin-bottom: 0;
+        /* padding-left: 0px; */
+
+    }
+
+    .p3 {
+        font-size: 13px;
+        /* text-align: center; */
+        /* padding-bottom: 8px; */
+        /* padding-left: 0px; */
+
+
+    }
+
+    .text-wrapper {
+        padding-bottom: 69px;
+        padding-right: 0px;
+        /* padding-left: 70px; */
+        /* position: absolute; */
+        text-align: center;
+        padding-left: 70px;
+    }
+
+    /* .text-wrapper > .quote-icon { */
+        /* padding-left: -0px; */
+    /* } */
+
+    .base-button {
+        cursor: pointer;
+        width: 190px ;
+        cursor: pointer;
+        position: absolute;
+        top:70% ;
+        right:0 ;
+        left: 0px;
+        border: none;
+        background: #F45D92;
+        font-size: 16px;
+        font-family: 'Averta';
+        color: #ffffff;
+        padding: 12px 23px;
+        border-radius: 18px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 24.72px;
+    }
+
+    .base-button-wrapper {
+        position: absolute;
+        /* padding-right: 50px; */
+
+    }
+}
+
+.vector-mom {
+    position: absolute;
+    right: 0;
+    top: 1160px;
+    /* max-width: 1072px; */
+    /* height: auto; */
+    /* height: 100%; */
+    /* max-width: 100%; */
+    /* height: 650px; */
+
+    width: 25%;
+    height: auto;
+    z-index: -100;
+}
+
+
+@media screen and (max-width: 768px ) {
+.text-wrapper2 {
+        padding-top: 17px;
+        }
+
+.mom-title {
+    font-weight: 600 ;
+    font-size: 30px;
+    line-height: 36.6px;
+    letter-spacing: -1.1px;
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.p-rec {
+    top: 19px;
+}
+
+.vector-mom {
+top:1870px
+}
+}
+
+
+
+@media screen and (max-width: 768px ) {
+    .mom-subtitle{
+        font-weight: 400 ;
+        font-size: 14px;
+        line-height: 18.2px;
+        letter-spacing: -1.1px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .p-rec {
+        top: 36px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -1.1px;
+        font-weight: bold;
+    }
+
+        .mom-rectangle {
+            margin: 0 auto ; /*centered*/
+            display: flex;
+            width: 180px;
+            height: 18px;
+            background: #F56B9B;
+            opacity: 0.2;
+            border-radius: 72px;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 10px;
+            align-items: center;
+            z-index: -1 ;
+        }
+
+        .happy-mom-pic {
+            height: 182px;
+            width: 148px;
+            margin-right: 0px;
+
+        }
+    
+        .happy-mom-container {
+            padding-bottom: 270px;
+            /* text-align: center; */
+        }
+    
+        .mom-column2-rectangle {
+            width: 330px;
+            height: 376px;
+            text-align: center; 
+        }
+    }
