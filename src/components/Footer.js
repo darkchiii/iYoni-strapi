@@ -31,7 +31,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                     <Link to="/" className="social-logo">
-                    <img className="logo-footer" src='./images/logo-footer.png' 
+                    <img className="logo-footer" src='/images/logo-footer.png' 
                     alt='logo-footer' /> 
                     </Link>
                     </div>
@@ -61,7 +61,7 @@ function Footer() {
             <div className='footer-water-sign-container'>
                 <img className='footer-water-sgin-img' src='./images/footer-1.png' alt=''/>
             </div> */}
-                            <img className='footer-vector' src='./images/vector-footer.png' alt=''/>
+                            <img className='footer-vector' src='/images/vector-footer.png' alt=''/>
 
         </div>
     )
