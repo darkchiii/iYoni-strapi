@@ -2,13 +2,6 @@
 [build]
   publish = "build"
 
-  ## Uncomment to use this redirect for Single Page Applications like create-react-app.
-  ## Not needed for static site generators.
-  #[[redirects]]
-  #  from = "/*"
-  #  to = "/index.html"
-  #  status = 200
-
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/master/docs/netlify-dev.md#project-detection
   [dev]
@@ -20,5 +13,10 @@
 
 [[redirects]]
 from = "/*"
+to = "/index.html"
+status = 200
+
+[[redirects]]
+from = "/article/styl-zycia-oraz-zmiany-ogolnoustrojowe-u-kobiet-w-ciazy"
 to = "/index.html"
 status = 200
