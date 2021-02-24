@@ -33,7 +33,7 @@ class OIyoni extends React.Component {
     async componentDidMount() {
         const pages_res = await axios({
             method: 'GET',
-            url: 'http://localhost:1337/pages/2'
+            url: 'https://strapi-iyoni.herokuapp.com/pages/2'
         })
         console.log("Home.componentDidMount pages_res", pages_res)
         this.setState({ page: pages_res.data })

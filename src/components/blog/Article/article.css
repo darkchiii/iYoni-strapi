@@ -10,7 +10,8 @@ color : #ffffff ;
 position: absolute;
 /* left: 150px; */
 padding-top: 100px;
-width: 600px;
+max-width: 590px;
+min-width: 250px;
 text-align: left;
 }
 

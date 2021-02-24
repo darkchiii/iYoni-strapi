@@ -21,7 +21,7 @@ class Home extends React.Component {
     async componentDidMount() {
         const pages_res = await axios({
             method: 'GET',
-            url: 'http://localhost:1337/pages/1'
+            url: 'https://strapi-iyoni.herokuapp.com/pages/1'
         })
         console.log("Home.componentDidMount pages_res", pages_res)
         this.setState({ page: pages_res.data })
