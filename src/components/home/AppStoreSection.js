@@ -2,7 +2,6 @@ import React from 'react' ;
 import './AppStoreSection.css' ;
 
 export default ({data}) => {
-    console.log("Hero.render data", data)
     const {text, pinkText}=data
     return (
         <section className='app-store-section'>

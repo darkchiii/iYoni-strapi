@@ -2,7 +2,6 @@ import React from 'react'
 import './HeroSection.css'
 
 export default ({data}) => {
-    console.log("Hero.render data", data)
     const {title, subtitle}=data
     return (
         // <p>Hero</p>

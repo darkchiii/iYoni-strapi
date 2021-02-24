@@ -11,8 +11,8 @@ const Home = () => {
     const articleSlug=useParams()?.slug
     // const imageUrl=process.env.REACT_APP_BACKEND_URL + article.image.url 
 
-    console.log(useLocation())
-    console.log(useParams())
+    // console.log(useLocation())
+    // console.log(useParams())
     React.useEffect(async() => {
         const data= await fetch("https://strapi-iyoni.herokuapp.com/articles?slug=" +articleSlug ).then (res=> res.json())
         console.log(data )

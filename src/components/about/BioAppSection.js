@@ -3,7 +3,6 @@ import './BioAppSection.css';
 import ReactMarkdown from 'react-markdown';
 
 export default ({ data }) => {
-    console.log("BioAppSection.render data", data)
     const { text } = data
     return (
         <section className='bio-store-section'>

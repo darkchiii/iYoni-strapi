@@ -11,7 +11,6 @@ const breakPoints = [
 ];
 
 export default ({data}) => {
-    // console.log("Base.render data", data)
     const {title, button1, button2, button3}=data
     return (
         <section className='base-section'>

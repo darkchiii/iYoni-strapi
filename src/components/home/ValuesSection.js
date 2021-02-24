@@ -3,7 +3,6 @@ import './ValuesSection.css' ;
 import ReactMarkdown from 'react-markdown' ;
 
 export default ({data}) => {
-    console.log("Hero.render data", data)
     const {title, val1, valDescription1, val2, valDescription2, val3, valDescription3}=data
     return (
         <section className='values-section-container'>
@@ -17,7 +16,7 @@ export default ({data}) => {
                         <h3><ReactMarkdown className="line-break">{val1}</ReactMarkdown></h3>
                     </div>
                     <div className='values-col-3'>
-                    <ReactMarkdown>{valDescription2}</ReactMarkdown>
+                    <ReactMarkdown>{valDescription1}</ReactMarkdown>
                     </div>
                 </div>
 

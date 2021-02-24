@@ -4,7 +4,6 @@ import ReactMarkdown from 'react-markdown' ;
 
 
 export default ({ data }) => {
-    console.log("BioSection.render data", data)
     const { title1, titlePink1, description1, title2, titlePink2, description2, title3, titlePink3, description3 } = data
     return (
         <section>

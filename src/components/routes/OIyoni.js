@@ -22,7 +22,6 @@ import '../../App.css';
 import AboutSecton from '../about/AboutSection';
 import BioSection from '../about/BioSection.js';
 import BioAppSection from '../about/BioAppSection.js';
-import mockPage from '../../utils/page'
 import axios from 'axios';
 
 class OIyoni extends React.Component {
@@ -35,13 +34,13 @@ class OIyoni extends React.Component {
             method: 'GET',
             url: 'https://strapi-iyoni.herokuapp.com/pages/2'
         })
-        console.log("Home.componentDidMount pages_res", pages_res)
+        // console.log("Home.componentDidMount pages_res", pages_res)
         this.setState({ page: pages_res.data })
     }
 
     render() {
         const { page } = this.state
-        console.log("App.render mockPage", mockPage)
+        // console.log("App.render mockPage", mockPage)
         return (
             <>
                 {page && page.content &&

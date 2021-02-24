@@ -1,7 +1,5 @@
 import React from "react";
 import Articles from "../components/blog/Articles";
-import Query from '../components/blog/Query';
-import ARTICLES_QUERY from "../components/blog/queries/article/articles";
 import { useParams } from "react-router-dom";
 
 
@@ -13,7 +11,7 @@ const Home = () => {
   React.useEffect(async () => {
     const data = await fetch("https://strapi-iyoni.herokuapp.com/articles").then(res => res.json())
 
-    setArticles(data)
+    setArticles(data) 
   }, [])
   return (
     <div>

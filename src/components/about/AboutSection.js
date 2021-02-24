@@ -5,7 +5,6 @@ import './AboutSection.css' ;
 // import './BioSection' ;
 
 export default ({data}) => {
-    console.log("AboutSection.render data", data)
     const {title, description}=data
     return (
         <section className='about-section'>

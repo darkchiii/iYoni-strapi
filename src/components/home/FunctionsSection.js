@@ -3,7 +3,6 @@ import './FunctionsSection.css';
 
 
 export default ({ data }) => {
-    console.log("Fun.render data", data)
     const { title, function1, function2, function3, function4, function5, function6, function7, note1, note2 } = data
     return (
         <section className='functions-section'>

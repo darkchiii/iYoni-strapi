@@ -2,7 +2,6 @@ import React from 'react' ;
 import './BenefitsSection.css' ;
 
 export default ({data}) => {
-  console.log("Hero.render data", data)
   const {benefitTitle1, benefitDescription1, benefitTitle2, benefitDescription2, benefitTitle3, benefitDescription3, benefitTitle4, benefitDescription4, benefitTitle5, benefitDescription5}=data
     return (
         <section className='benefits-section' >

@@ -9,8 +9,6 @@ import AppStoreSection from '../home/AppStoreSection.js';
 import BaseSection from '../home/BaseSection.js';
 
 import Hero from '../home/Hero.js'
-import CategoryNav from '../blog/CategoryNav';
-import mockPage from '../../utils/page'
 import axios from 'axios';
 
 class Home extends React.Component {
@@ -23,13 +21,13 @@ class Home extends React.Component {
             method: 'GET',
             url: 'https://strapi-iyoni.herokuapp.com/pages/1'
         })
-        console.log("Home.componentDidMount pages_res", pages_res)
+        // console.log("Home.componentDidMount pages_res", pages_res)
         this.setState({ page: pages_res.data })
     }
 
     render() {
         const { page } = this.state
-        console.log("App.render mockPage", mockPage)
+        // console.log("App.render mockPage", mockPage)
         return (
             <>
                 {page && page.content &&

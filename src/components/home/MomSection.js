@@ -3,7 +3,6 @@ import './MomSection.css' ;
 import ReactMarkdown from 'react-markdown' ;
 
 export default({data}) => {
-    console.log("Hero.render data", data)
     const {quote, signature, button, title, subtitle, button2}=data
     return (
         <section className='mom-section-container'>
