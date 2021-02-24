@@ -52,7 +52,8 @@ className="uk-flex uk-align-center uk-flex-center uk-flex-middle  uk-background-
 <div>
 {article?.author?.picture?.url && (
 <img className='author-picture'
-src={process.env.REACT_APP_BACKEND_URL + article?.author?.picture?.url}
+// src={process.env.REACT_APP_BACKEND_URL + article?.author?.picture?.url}
+src={article?.author?.picture?.url}
 imgStyle={{ position: "static", borderRadius: "50%", width: "30px"}}
 />
 )}

@@ -37,7 +37,7 @@
 .cat-navbar {
     padding-top: 10px;
     position: static;
-    padding-left: 120px;
+    padding-left: 130px;
     /* padding-right: 100px; */
     /* color: navy !important; */
 }
@@ -66,10 +66,17 @@ text-align: left;
 
 @media screen and (max-width: 1345px) {
     .cat-navbar {
-        padding-left: 90px;
+        padding-left: 200px;
     }}
 
     @media screen and (max-width: 1345px) {
         .cat-navbar {
-            padding-left: 43px;
+            /* padding-left: 43px; */
         }}
+
+        @media screen and (max-width: 1440px) {
+            .cat-navbar {
+                /* padding-left: 200px; */
+            }
+        }
+    

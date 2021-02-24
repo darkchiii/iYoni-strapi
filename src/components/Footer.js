@@ -8,7 +8,7 @@ function Footer() {
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
-                        <Link to='/'>Polityka prywatności</Link>
+                        <Link to='/'>Polityka prywatnosci</Link>
                         <Link to='/'>Regulamin</Link>
                         <Link to='/'>Bezpieczeństwo</Link>
                     </div>
@@ -31,7 +31,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                     <Link to="/" className="social-logo">
-                    <img className="logo-footer" src='/images/logo-footer.png' 
+                    <img className="logo-footer" src='./images/logo-footer.png' 
                     alt='logo-footer' /> 
                     </Link>
                     </div>
