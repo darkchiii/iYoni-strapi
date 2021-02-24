@@ -26,7 +26,7 @@ const Card = ({article}) => {
       console.log(article?.image?.url, "imageUrl")
       console.log(imageUrl, "url")
   return (
-    <Link to={`/article/${article.slug}`} className="uk-link-reset">
+    <Link to={`/article/${article?.slug}`} className="uk-link-reset">
       <div className="uk-card uk-card-muted uk-card-hover card">
         <div className="uk-card-media-top">
           <img className="card-img"

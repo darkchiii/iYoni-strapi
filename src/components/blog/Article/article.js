@@ -21,7 +21,7 @@ const Home = () => {
 
     const imageUrl =
     process.env.NODE_ENV !== "development"
-      ? article.image.url
+      ? article?.image?.url
       : process.env.REACT_APP_BACKEND_URL + article?.image?.url;
       console.log(article.writer, "writer")
       return (

@@ -2,9 +2,6 @@ import React from "react";
 import Articles from "../components/blog/Articles";
 import { useParams } from "react-router-dom";
 
-
-
-
 const Home = () => {
   const [articles, setArticles] = React.useState([])
   const categorySlug = useParams()?.slug

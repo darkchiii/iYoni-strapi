@@ -15,8 +15,3 @@
 from = "/*"
 to = "/index.html"
 status = 200
-
-[[redirects]]
-from = "/article/styl-zycia-oraz-zmiany-ogolnoustrojowe-u-kobiet-w-ciazy"
-to = "/index.html"
-status = 200
